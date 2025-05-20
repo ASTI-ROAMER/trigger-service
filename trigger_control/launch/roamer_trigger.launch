@@ -1,0 +1,11 @@
+<launch>
+    <!-- Launch the trigger service node -->
+    <node pkg="trigger_control" type="trigger_service.py" name="trigger_service_node" output="screen" />
+
+    <!-- Launch the keyboard trigger client -->
+    <node pkg="trigger_control" type="keyboard_trigger_client.py" name="keyboard_trigger_client" output="screen" />
+
+    <!-- Launch the listener node -->
+    <node pkg="trigger_control" type="listener_node.py" name="trigger_listener" output="screen" />
+</launch>
+
