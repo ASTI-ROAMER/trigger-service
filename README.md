@@ -22,5 +22,4 @@ trigger_control/
 ├── package.xml
 └── README.md
 
-
 <pre lang="markdown"> ```text trigger_control/ ├── launch/ │ └── trigger_system.launch ├── scripts/ │ ├── keyboard_trigger_client.py │ ├── listener_node.py │ └── trigger_service.py ├── CMakeLists.txt ├── package.xml └── README.md ``` </pre>
