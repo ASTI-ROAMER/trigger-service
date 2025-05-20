@@ -19,7 +19,11 @@ A simple ROS Noetic package that allows triggering actions using the keyboard. P
 ## Requirements
 
 ROS Noetic installed on Ubuntu 20.04 with Python 3.
+Pynput package installed. 
 
+   ```bash
+   pip3 install pynput
+   ```
 ## Setup
 1. **Place Files in Your ROS Package**
 
